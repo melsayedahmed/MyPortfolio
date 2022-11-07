@@ -1,0 +1,14 @@
+{
+    "name": "Mohab Mohammed",
+    "short_name": "Mohab",
+    "start_url": ".",
+    "backgroud_color": "#fff",
+    "theme_color": "#1876f3",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "icons": [{
+        "src": "dist/img/logo.png",
+        "size": "343/343",
+        "type": "image/png"
+    }]
+}

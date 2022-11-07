@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mohab Mohammed (مهاب محمد), Junior Front-end developer, from Tanta - Egypt, development best Website and Web Application" />
+    <meta name="keywords"
+        content="Mohab Mohammed | Portfolio Website | Egyptian |Development |Mohab | Egyptian Developer | Web Developer | web designer | website | Web Application" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="General" />
+    <meta name="language" content="En" />
+    <meta name="author" content="Mohab Mohammed" />
+    <meta name="Googlebot" content="index, follow" />
+    <meta name="distribution" content="global" />
+    <meta name="object" content="document" />
+    <meta name="audience" content="All" />
+    <meta name="language" content="english" />
+    <title id="home">Mohab Mohammed | Web Developer</title>
+    <meta name="robots" content="index" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#111827" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="apple-touch-icon" href="dist/img/logo.png" />
+    <link rel="shortcut icon" href="dist/img/logo2.png" type="image/x-icon" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="dist/css/tailwind.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1142185023845871"
+        crossorigin="anonymous"></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5F9QLX3');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+<!-- start body with gray background -->
+
+<body class="bg-gray-700">
+    <!-- loader -->
+    <div class="loader-box">
+        <div class="dots">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+            <div class="dot3"></div>
+        </div>
+    </div>
+    <!-- menu toggle button -->
+    <button id="nav-btn" class="fixed right-7 top-6 p-2 pt-1 pb-1 rounded text-2xl bg-gray-900 text-gray-500 z-10"
+        style="font-family: 'material-icons';" title="Menu button">menu</button>
+    <!-- start main menu -->
+    <div id="menu-box">
+        <!-- logo -->
+        <img src="dist/img/logo.png" class="logo m-auto mt-3 rounded-full border-0" alt="Logo">
+        <ul>
+            <li><a href="#home" title="Home"><span>home</span> Home</a></li>
+            <li><a href="#about" title="About"><span>info</span> About</a></li>
+            <li><a href="#projects" title="Projects"><span>developer_mode</span>Projects</a></li>
+            <li><a href="#service" title="Services"><span>support_agent</span>Services</a></li>
+            <li><a href="#contact" title="Contact"><span>phone</span>Contact</a></li>
+        </ul>
+        <!-- social icons -->
+        <div class="social w-full absolute bottom-3">
+            <a href="https://www.facebook.com/mohab.mohammed.31508076" target="_blank"
+                class="block w-14 text-center h-10 m-auto hover:text-blue-700 text-white"><i
+                    class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/mohabmohammed_" target="_blank"
+                class="block w-14 text-center h-10 m-auto hover:text-blue-500 text-white"><i
+                    class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mohabmohammed_official/" target="_blank"
+                class="block w-14 text-center h-10 m-auto hover:text-red-600 text-white"><i
+                    class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/mohab-mohammed-59a317176/" target="_blank"
+                class="block w-14 text-center h-10 m-auto hover:text-blue-400 text-white"><i
+                    class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/melsayedahmed" target="_blank"
+                class="block w-14 text-center h-10 m-auto hover:text-gray-500 text-white"><i
+                    class="fa fa-github"></i></a>
+            <a href="https://www.youtube.com/channel/UCo92JwtW5CbyN3XO6O0qocA" target="_blank"
+                class="block w-14 text-center h-10 m-auto hover:text-red-500 text-white"><i
+                    class="fa fa-youtube-play"></i></a>
+        </div>
+    </div>
+    <!-- // end of menu -->
+    <!-- dark opacity -->
+    <div class="back"></div>
+    <!-- end of dark opacity -->
+    <!-- start header -->
+    <header class="w-full h-full">
+        <!-- profile image -->
+        <div class="img">
+            <img src="dist/img/profile (2).jpg" alt="Mohab Mohammed">
+        </div>
+        <!-- text and animation -->
+        <div class="text">
+            <h1 class="text-white text-2xl flex items-center gap-2">Hey! <img src="dist/img/hi.gif" class="w-6 border-0"
+                    alt=""></h1>
+            <h1 class="text-white text-4xl font-bold mb-5 mt-2 w-full flex gap-2">I'm
+                <p id="text"></p>
+            </h1>
+            <a href="#about" class="p-2 pl-3 pr-3 px-4 font-bold bg-white rounded-full text-gray-800">Hire me</a>
+        </div>
+        <span class="ico dow-arr">south</span>
+    </header>
+    <!-- end of header -->
+    <!-- start main content -->
+    <main class="container" id="about">
+        <!-- start about section -->
+        <div class="sec">
+            <h1 class="title">About ME</h1>
+            <div class="about-section">
+                <img src="dist/img/img2.jfif" class="w-full" alt="Mohab Mohammed">
+                <div class="text">
+                    <h2 class="font-bold text-3xl pb-2 text-white">Who i am?</h2>
+                    <p class="text-white text-justify" id="about-text">
+                    </p>
+                    <br>
+                    <a href="https://docs.google.com/document/d/1NgrsZqwAoxqI4BvZBJFVRXAtKAHz2Y5Z/edit?usp=sharing&ouid=101996437900190775612&rtpof=true&sd=true" target="_blank"
+                        download class=" p-3 px-5 bg-white text-gray-900 font-bold rounded-full">My CV</a>
+                        <a href="CV Website/index.html" target="_blank"
+                        download class=" p-3 px-5 bg-white text-gray-900 font-bold rounded-full">My Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- end of about section -->
+        <!-- start projcet section -->
+        <h1 class="title" id="projects">My Portfolio</h1>
+        <div class="project-section">
+            <a href="dist/img/portfolio (1).png" data-fancybox="gallery"
+                data-caption="A Personal Portfolio. Using html + css + BootStrap + JavaScript. visit at: https://melsayedahmed.github.io/My_Portfolio-/index.html"><img
+                    src="dist/img/portfolio (1).png" alt="Personal Portfolio"></a>
+
+            <a href="dist/img/portfolio (2).png" data-fancybox="gallery"
+                data-caption="Design Server Website. Using html + css + Bootstrap + JavaScript visit at: https://swift-graphics0swift00.on.drv.tw/SWIFT%20GRAPHICS/"><img
+                    src="dist/img/portfolio (2).png" alt="swift-graphics"></a>
+
+            <a href="dist/img/portfolio (3).png" data-fancybox="gallery"
+                data-caption="Delivery Company Website. Using html + css Pure. visit at: https://delivery-company.netlify.app/"><img
+                    src="dist/img/portfolio (3).png" alt="Delivery Company"></a>
+
+            <a href="dist/img/portfolio (4).png" data-fancybox="gallery"
+                data-caption="e-eccomerce Website. Using html + css Pure. visit at: https://shophh.vercel.app/"><img
+                    src="dist/img/portfolio (4).png" alt="e-eccomerce Website"></a>
+
+            <a href="dist/img/portfolio (5).png" data-fancybox="gallery"
+                data-caption="A Personal Portfolio. Using html + css + BootStrap + JavaScript. visit at: https://begoportfolio.netlify.app/"><img
+                    src="dist/img/portfolio (5).png" alt="Bego Portfolio"></a>
+
+            <a href="dist/img/portfolio (6).PNG" data-fancybox="gallery"
+                data-caption="Bot Discord Website. Using html + css + BootStrap + JavaScript. visit at: https://angel-bot.vercel.app/"><img
+                    src="dist/img/portfolio (6).PNG" alt="Angel Bot"></a>
+
+            <a href="dist/img/portfolio (7).png" data-fancybox="gallery"
+                data-caption="Gym Website. Using html + css + BootStrap + JavaScript. visit at: https://befit-website.netlify.app/"><img
+                    src="dist/img/portfolio (7).png" alt="Gym Website"></a>
+
+            <a href="dist/img/portfolio (8).PNG" data-fancybox="gallery"
+                data-caption="constructed-company. Using html + css + JavaScript. visit at: https://constructed-company.netlify.app/"><img
+                    src="dist/img/portfolio (8).PNG" alt="constructed-company"></a>
+
+            <a href="dist/img/portfolio (9).png" data-fancybox="gallery"
+                data-caption="delevrey Website. Using html + css + JavaScript. visit at: https://delevrey.netlify.app/"><img src="dist/img/portfolio (9).png"
+                    alt="delevrey Website"></a>
+
+            <a href="dist/img/portfolio (10).png" data-fancybox="gallery"
+                data-caption="Prize Website. Using html + css + JavaScript. visit at: https://fluffy-toffee-80da51.netlify.app/#"><img src="dist/img/portfolio (10).png"
+                    alt="Prize Website"></a>
+
+            <a href="dist/img/portfolio (11).png" data-fancybox="gallery"
+                data-caption="Anime Filme. Using html + css + BootStrap. visit at: https://anime-films.netlify.app/"><img
+                    src="dist/img/portfolio (11).png" alt="Anime Filme"></a>
+
+            <a href="dist/img/portfolio (12).PNG" data-fancybox="gallery"
+                data-caption="Company Portfolio. Using html + css + JavaScript. visit at: https://design-diva.netlify.app/"><img
+                    src="dist/img/portfolio (12).PNG" alt="Company Portfolio"></a>
+        </div>
+        <!-- end of projects section -->
+        <!-- start services section -->
+        <div class="sec" id="service">
+            <h1 class="title">My Services</h1>
+            <div class="service-section">
+                <div class="card shadow">
+                    <img src="dist/img/coding.png" alt="Web Development">
+                    <h2 class="font-bold text-2xl mt-4 mb-3">Fast</h2>
+                    <p>We optimize the website for a better experience.
+                    </p>
+                </div>
+                <div class="card shadow">
+                    <img src="dist/img/ui.png" alt="Web Development">
+                    <h2 class="font-bold text-2xl mt-4 mb-3">Responsive</h2>
+                    <p>A responsive web design will automatically adjust for different screen sizes and viewports                        .</p>
+                </div>
+                <div class="card shadow">
+                    <img src="dist/img/seo.png" alt="Web Development">
+                    <h2 class="font-bold text-2xl mt-4 mb-3">Secure</h2>
+                    <p>Our Website security, is the most secure.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--// end of services section -->
+        <!-- skills section -->
+        <div class="sec">
+            <div class="w-full">
+                <h1 class="title mt-12">My Skills</h1>
+                <div class="skills-section">
+                    <div class="skills">
+                        <div class="skills-bar">
+                            <h2>HTML</h2>
+                            <span class="bar"><span class="html"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>CSS</h2>
+                            <span class="bar"><span class="css"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>JavaScript</h2>
+                            <span class="bar"><span class="js"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>PHP</h2>
+                            <span class="bar"><span class="php"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>MySQL</h2>
+                            <span class="bar"><span class="sql"></span></span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-bar">
+                            <h2>Bootstrap</h2>
+                            <span class="bar"><span class="boot"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>React</h2>
+                            <span class="bar"><span class="React"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>Git & GitHub</h2>
+                            <span class="bar"><span class="Git"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>PhotoShop</h2>
+                            <span class="bar"><span class="PhotoShop"></span></span>
+                        </div>
+                        <div class="skills-bar">
+                            <h2>Java</h2>
+                            <span class="bar"><span class="java"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end o skills section -->
+    <!-- get contact -->
+    <div class="wrapper">
+        <p>Do you need a freelancer?</p>
+        <a href="#contact">Contact Me</a>
+    </div>
+    <!-- start contact section -->
+    <main class="container">
+        <div class="sec" id="contact">
+            <h1 class="title">Get In Touch</h1>
+            <div class="contact-section">
+                <div class="data">
+                    <div class="item">
+                        <span>person</span>
+                        <div>
+                            <h1>Name</h1>
+                            <h3>Mohab Mohammed</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span>email</span>
+                        <div>
+                            <h1>Email</h1>
+                            <h3>mohab.moh2020@gmail.com</h3>
+                            <h3>mohab.moh7000@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span>phone
+                        </span>
+                        <div>
+                            <h1>Phone</h1>
+                            <h3>(+20) 01146198234</h3>
+                            <h3>(+20) 01147766541</h3>
+                        </div>
+                    </div>
+                </div>
+                <form action="https://formsubmit.co/mohab.moh7000@email.com" class="form" method="POST">
+                    <div class="input">
+                        <input type="text" name="text" required autocomplete="off" spellcheck="false">
+                        <label>Name</label>
+                    </div>
+                    <div class="input">
+                        <input type="email" name="Email" required autocomplete="off">
+                        <label>Email</label>
+                    </div>
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hover:shadow-md">Send <i class="fa fa-paper-plane ml-3"></i></button>
+                </form>
+            </div>
+        </div>
+        <!--// end of contact section -->
+    </main>
+    <!-- // end of main content -->
+    <!-- bact to top button -->
+    <button class="bg-gray-600 fixed bottom-3" title="Back to Top" id="b-btn"><i class="fa fa-chevron-up"></i></button>
+    <!-- footer -->
+    <footer translate="no">
+        <p>Copyright &copy; <i id="dt"></i>. Mohab Mohammed, All Rights Reserved.</p>
+    </footer>
+    <!-- script files -->
+    <script>
+        var form = document.querySelector(".form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            // var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    alert("Thanks for your submission!)";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            alert(data["errors"].map(error => error["message"]).join(", "))
+                        } else {
+                            alert("Oops! There was a problem submitting your form")
+                        }
+                    })
+                }
+            }).catch(error => {
+                alert("Oops! There was a problem submitting your form")
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dist/js/jquery.fancybox.min.js"></script>
+    <script src="dist/js/scrollreveal.min.js"></script>
+    <script src="dist/js/typed.js"></script>
+    <script src="dist/js/main.js"></script>
+</body>
+
+</html>
